@@ -1,0 +1,61 @@
+
+.animation-box {
+width: 75%;
+height: 27.5rem;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+}
+
+.animation-container {
+width: 1000rem;
+height: 30rem;
+}
+
+@keyframes bottomFadeOut {
+0% {
+position: absolute;
+bottom: -5rem;
+opacity: 0;
+}
+
+75% {
+position: absolute;
+bottom: 25%;
+opacity: 1;
+}
+
+100% {
+opacity: 0;
+}
+}
+.victory-text {
+font-size: 10rem;
+text-shadow: 3px 4px #000;
+position: center;
+left: 25%;
+bottom: 25%;
+opacity: 0;
+color: #DDA520;
+animation-name: bottomFadeOut;
+animation-delay: 2s;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+#victory {
+}
+.example5 {
+  background-color: #000;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 820px;
+}
+.example6 {
+  background-image: url("/images/betterVictory.png");
+  background-size: cover; 
+  background-repeat: no-repeat, repeat;
+  height: 660px;
+  position: relative;
+  top: 80px;
+}

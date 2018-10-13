@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Fist to 5</title>
+		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright" rel="stylesheet">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Game Logic -->
+		<script type="text/javascript" src="assets/javascript/fistToFive.js"></script>
+	</head>
+
+	<body>
+
+		<div class="main-section-title"><p>Final Battle</p></div>
+		<div id="main-game-section">
+			<!-- Characters rendered originally  -->
+			<div id="characters-section">
+				<div class="section-title">Select Your Weapon</div>
+			</div>
+
+			<!-- When you select your character -->
+			<div id="selected-character-section">
+				<div class="section-title">Your Weapon</div>
+				<div id="selected-character"></div>
+			</div>
+
+			<!-- Where boss renders -->
+			<div id="available-to-attack-section">
+				<div class="section-title">Enemies Available To Attack</div>
+			</div>
+
+			<div class="section-title">Fight Section</div>
+			<div id="fight-section">
+			<!-- attack button -->
+				<button id="attack-button">Attack</button>
+			</div>
+
+			<div id="action">
+				<div class="character-section">
+					<div class="section-title">Defender</div>
+					<!-- Defender div -->
+					<div id="defender"></div>
+				</div>
+			</div>
+
+		</div>
+		<!-- Area for game over -->
+		<div id="game-message"></div>
+	</body>
+
+</html>
